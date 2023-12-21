@@ -1,42 +1,52 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Arimo', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     font-family: 'Arimo', sans-serif;
 }
 
-ul, ol{
+ul,
+ol {
     list-style: none;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
 
-body,html{
+body,
+html {
     overflow-x: auto;
 }
-.container-header{
+
+.container-header {
     background-color: grey;
     overflow-x: auto;
-  }
+}
 
- .logo{
+.logo {
     width: 100px;
     height: 100px;
- }
+}
 
+.titulo {
+    display: none;
+}
 
 
 .clientes {
@@ -52,7 +62,7 @@ body,html{
     margin-bottom: 20px;
 }
 
-.clientes h2{
+.clientes h2 {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Arimo', sans-serif;
@@ -62,19 +72,19 @@ body,html{
     margin: 20px;
 }
 
-.img-conteiner{
+.img-conteiner {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 300px;
     background: rgb(223, 225, 235);
-  border-radius: 50px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 
-.clientes img{
+.clientes img {
     display: flex;
     width: 80%;
     height: 50%;
@@ -83,7 +93,7 @@ body,html{
 }
 
 
-.destacado{
+.destacado {
     width: 100%;
     background-color: white;
     padding-left: 10px;
@@ -92,7 +102,7 @@ body,html{
     margin-top: 20px;
 }
 
-.destacado h2{
+.destacado h2 {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Arimo', sans-serif;
@@ -101,7 +111,7 @@ body,html{
     text-align: center;
 }
 
-.conteiner-tarjetas{
+.conteiner-tarjetas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +126,7 @@ body,html{
     margin-bottom: 20px;
 }
 
-.tarjeta{
+.tarjeta {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,10 +136,10 @@ body,html{
     margin: 10px;
     border-radius: 30px;
     background: #e0e0e0;
-    box-shadow: 15px 15px 30px #bebebe,-15px -15px 30px #ffffff;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
 }
 
-.parte-superior{
+.parte-superior {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,17 +151,17 @@ body,html{
     background-color: #E7EDEC;
 }
 
-.parte-superior img{
+.parte-superior img {
     width: 50%px;
-    height: 150px;;
+    height: 150px;
     border-radius: 10px;
 }
 
-.parte-superior p{
+.parte-superior p {
     overflow: hidden;
 }
 
-.parte-inferior{
+.parte-inferior {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -160,25 +170,25 @@ body,html{
     margin: 10px;
 }
 
-.parte-inferior p{
+.parte-inferior p {
     font-size: 15px;
     margin: 10px;
 }
 
 
-footer{
+footer {
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
 
 }
 
-.contacto{
+.contacto {
     display: grid;
-    grid-template-rows: (3,33%);
+    grid-template-rows: (3, 33%);
 }
 
-.contacto h2{
+.contacto h2 {
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
@@ -188,40 +198,76 @@ footer{
 }
 
 
-.contacto ul li{
+.contacto ul li {
     margin: 8px;
     text-align: center;
 }
 
-.faq{
+.faq {
     display: grid;
-    grid-template-columns: (3,33%);
+    grid-template-columns: (3, 33%);
 }
 
-.faq h3{
+.faq h3 {
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
-    margin: 15px    ;
+    margin: 15px;
     color: grey;
 }
-.faq ul{
+
+.faq ul {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-right: 16px;
 }
 
-.faq ul li{
+.faq ul li {
     margin: 15px;
 }
 
-@media(min-width:400px){
-    .clientes img{
-    display: flex;
-    width: 80%;
-    height: 70%;
-    border-radius: 10px;
-    margin: 10px;
+@media(min-width:400px) {
+    .clientes img {
+        display: flex;
+        width: 80%;
+        height: 70%;
+        border-radius: 10px;
+        margin: 10px;
+    }
+}
+
+@media (min-width:576px) {
+    .titulo {
+        display: block;
+        font-weight: bold;
+    }
+
+    .img-conteiner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        background: rgb(223, 225, 235);
+        border-radius: 50px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    .parte-superior {
+        display: grid;
+        align-items: center;
+        width: 100%;
+        height: 450px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #E7EDEC;
+    }
+
+    .tarjeta-img{
+        width: 100%;
+        height: 100%;
+        align-self: center;
     }
 }
